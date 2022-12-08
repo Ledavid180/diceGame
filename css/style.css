@@ -1,0 +1,279 @@
+*{box-sizing: border-box;}
+
+.board {
+    width: 600px;
+    height: 600px;
+    border: 4px solid rgb(179, 107, 107);
+    margin: 40px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dice {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgb(101, 131, 220);
+}
+
+.dice-wrapper {
+    text-align: center;
+    margin: 20px;
+}
+
+.start{
+    margin-top: 40px;
+}
+
+.roll{
+    margin-bottom: 40px;
+}
+
+.dice {
+    position: relative;
+}
+
+.one div:nth-child(1) {
+    padding: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    width: 0px;
+}
+
+.two div:nth-child(1) {
+    padding: 4px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    width: 0px;
+}
+
+.two div:nth-child(2) {
+    padding: 4px;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    width: 0px;
+}
+
+.three div:nth-child(1) {
+    padding: 4px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    width: 0px;
+}
+
+.three div:nth-child(2) {
+    padding: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    width: 0px;
+}
+
+.three div:nth-child(3) {
+    padding: 4px;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    width: 0px;
+}
+
+.four div:nth-child(1) {
+    padding: 4px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    width: 0px;
+}
+
+.four div:nth-child(1) {
+    padding: 4px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    width: 0px;
+}
+
+.four div:nth-child(2) {
+    padding: 4px;
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    width: 0px;
+}
+
+.four div:nth-child(3) {
+    padding: 4px;
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    width: 0px;
+}
+
+.four div:nth-child(4) {
+    padding: 4px;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    width: 0px;
+}
+
+.five div:nth-child(1) {
+    padding: 4px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    width: 0px;
+}
+
+.five div:nth-child(2) {
+    padding: 4px;
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    width: 0px;
+}
+
+.five div:nth-child(3) {
+    padding: 4px;
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    width: 0px;
+}
+
+.five div:nth-child(4) {
+    padding: 4px;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    width: 0px;
+}
+
+.five div:nth-child(5) {
+    padding: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    width: 0px;
+}
+
+.six div:nth-child(1) {
+    padding: 4px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    width: 0px;
+}
+
+.six div:nth-child(2) {
+    padding: 4px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    width: 0px;
+}
+
+.six div:nth-child(3) {
+    padding: 4px;
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    width: 0px;
+}
+
+.six div:nth-child(4) {
+    padding: 4px;
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    width: 0px;
+}
+
+.six div:nth-child(5) {
+    padding: 4px;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    width: 0px;
+}
+
+.six div:nth-child(6) {
+    padding: 4px;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    width: 0px;
+}
